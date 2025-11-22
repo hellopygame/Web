@@ -14,12 +14,12 @@ class User(db.Model):
 
 @app.route('/users', methods=['POST'])
 def add_user():
-    data = request.json
-    new_user = User(name=data['name'])
+    data: dict = request.json
+    new_user = User(name=data[next(iter(data))])
     db.session.add(new_user)
     db.session.commit()
 
-    return jsonify({"id": new_user.date, "name": new_user.amount})
+    return jsonify({"date": new_user.date, "amount": new_user.amount})
 
 # @app.route('/users', methods=['GET'])
 # def get_users():
@@ -27,4 +27,5 @@ def add_user():
 #     return jsonify([{"id": u.id, "name": u.name} for u in users])
 
 # if __name__ == '__main__':
+
 #     app.run(debug=True)
