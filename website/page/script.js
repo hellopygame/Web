@@ -28,7 +28,7 @@ function buttonPressed() {
             const priceEle = element.querySelector(".price")
             itemarray.push(priceEle.innerHTML)
             const date = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`
-            fetch("https://web-x6bs.onrender.com", {
+            fetch("https://web-2yhg.onrender.com", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -52,3 +52,4 @@ function buttonPressed() {
 
 
 }
+
