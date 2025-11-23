@@ -1,0 +1,61 @@
+.s{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    outline-style: solid;
+    outline-width: 4px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.square1{
+    outline-color: #000000;
+}
+
+
+.square2{
+    outline-color: #1d9a19;
+
+}
+
+.price{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+}
+#d1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#d2{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+#d3{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+#d4 {
+    position: absolute;
+    top: 1040px;
+    left: 300px;
+}
+#t1{
+    
+    margin: 20px;
+    font-size: 30px;
+
+}
+#b1{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
