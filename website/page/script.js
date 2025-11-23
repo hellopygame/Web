@@ -40,7 +40,9 @@ function buttonPressed() {
             })
             .then(res => res.json())
             .then(data => {
-                document.write(data);
+                new_data = JSON.parse(data);
+                const text = document.querySelector("#t1");
+                text.textContent = new_data.amount;
             })
         });
 
@@ -52,4 +54,5 @@ function buttonPressed() {
 
 
 }
+
 
