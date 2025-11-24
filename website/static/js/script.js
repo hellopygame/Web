@@ -4,13 +4,7 @@ window.onload = () => {
         clickSquare(element);
     });
 
-    // const b2 = document.querySelector("#b2");
-    // b2.addEventListener("click", async () => {
-    //     const response = await fetch('/test');
-    //     const json = await response.json();
-    //     const user = json.data;
-    //     console.log(json);
-    // });
+
 
     (document.querySelector("#b1")).addEventListener("click", async () => {
         let amountArray = []
@@ -49,20 +43,7 @@ window.onload = () => {
         
     });
 
-    // (document.querySelector("#b4")).addEventListener("click", async () => {
-    //     const response = await fetch('/test3', {
-    //         method: "POST",
-    //         headers: {
-    //             "Content-Type": "application/json"
-    //         },
-    //         body: JSON.stringify({
-    //             "data": "hi"
-    //         })
-    //     });
-    //     const jsn = await response.json();
-    //     console.log(jsn);
-
-    // });
+    
 
 
 }
@@ -78,4 +59,5 @@ function clickSquare(e) {
 
     });
 }
+
 
