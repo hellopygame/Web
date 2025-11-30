@@ -170,5 +170,3 @@ def saveData():
     return "order saved"
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
