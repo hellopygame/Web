@@ -1,0 +1,236 @@
+.s{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    outline-style: solid;
+    outline-width: 4px;
+    background-color: #FFFFFF;
+    
+    border-radius: 10px;
+}
+
+.password{
+    width: 300px;
+    height: auto;
+}
+.square1{
+    outline-color: #000000;
+}
+
+
+.square2{
+    outline-color: #1d9a19;
+
+}
+.title1{
+    
+    margin: 20px;
+    font-size: 30px;
+
+}
+.title2{
+    
+    margin: 15px;
+    font-size: 50px;
+}
+
+.title3{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.price{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.name{
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.logoFrame{
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+
+#logoDrink{
+    position: absolute;
+    top: 0px;
+    left: 290px;
+}
+
+#drink1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#drink2{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+#drinkButton {
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+    width: 650px;
+}
+
+#order{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+#comfireOrder{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+#cancel{
+    position: absolute;
+    left: 70%;
+    transform: translateX(-70%);
+    width: 70px;
+    height: auto;
+    margin: 20px;
+}
+
+#centerlogo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 30%;
+    height: auto;
+}
+
+#logo{
+    width: 15%;
+    height: auto;
+}
+
+#topping1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#topping2{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+#toppingButton{
+    position: absolute;
+    top: 800px;
+    left: 0px;
+
+    width: 640px;
+}
+
+#passwordOK{
+    margin: 20px;
+
+    width: 50px;
+    height: auto;
+}
+
+
+
+#orderLog{
+    margin: 20px;
+}
+.orderFrame{
+    position: relative;
+    width: 700px;
+    height: 100px;
+    
+    margin-left: 20px;
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+.orderID{
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+.orderInfo{
+    position: relative;
+    font-size: 20px;
+    
+    margin: 10px;
+}
+
+.orderTime{
+    position: relative;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+.orderButtonFrame{
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    left: 500px;
+    width: 200px;
+    height: auto;
+}
+.orderStatus{
+    font-size: 18px;
+}
+
+.complete{
+    color: #00FF00;
+}
+
+.incomplete{
+    color: #FF0000;
+}
+
+#back{
+    margin: 20px;
+}
+
+#requestLog{
+    position: absolute;
+    top: 50px;
+    margin: 20px;
+}
+
+.hidden{
+    display: none;
+}
